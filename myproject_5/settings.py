@@ -85,8 +85,7 @@ DATABASES = {
 }
 """
 
- DATABASES = {
-        'default': dj_database_url.config(default='postgresql://postgres:postgres@localhost:5432/tanmayeb-myapp',
+DATABASES = {'default': dj_database_url.config(default='postgresql://postgres:postgres@localhost:5432/tanmayeb-myapp',
                                           conn_max_age=600)}
 
 # Password validation
