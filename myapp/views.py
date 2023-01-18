@@ -10,4 +10,6 @@ def home(request):
     print(time)
     return render(request,"home.html", context=data)
 
-
+def maintenance(request):
+    data = dict()
+    return render(request,"maintenance.html",context=data)
